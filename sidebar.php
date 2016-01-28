@@ -1,8 +1,7 @@
 <div id="sidebar">
-    <h3><span>Intro</span></h3>
-    <h1>My name is <span class="pink">Antoinette Janus</span>
-    <br/>Welcome to my portfolio.
-    </h1>
+    <h1>My name is <span class="pink">Antoinette Janus</span></h1>
+    <p>I'm a developer and designer based in Washington, D.C.
+    </p>
     <ul>
        <?php 
        $args = array(
@@ -14,7 +13,7 @@
             'exclude'      => $post->ID,
             'include'      => '',
             'link_after'   => '<span>&nbsp;&raquo;</span>',
-            'link_before'  => '<li>',
+            'link_before'  => '',
             'post_type'    => 'page',
             'post_status'  => 'publish',
             'show_date'    => '',
@@ -28,7 +27,7 @@
     </ul>
     <div id="piece-details">
       <div id="page-slider"></div>
-      <p>On the right:</p>
+      <p></p>
       <p id="piece-name"></p>
       <p id="piece-description"></p>
     </div>

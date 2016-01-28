@@ -29,7 +29,7 @@ html, body{
 	color: #fff;
 	width: 35%;
 	box-sizing: border-box;
-	padding: 1%;
+	padding: 1% 2%;
 	left: 0;
 	height: 100%;
 	position: relative;
@@ -37,44 +37,8 @@ html, body{
 .pink{
 	color: deeppink;
 }
-#sidebar h1 {
-	font-size: 1.6em;
-	line-height: 1.4em;
-        font-weight: 800;
-}
-#sidebar h3{
-	margin: 0;
-}
-#sidebar h3 span{
-	margin: 0;
-	padding: 0.5em;
-	background: deeppink;
-	width: auto;
-	display: inline-block;
-}
-#sidebar h3::after{
-	content: ' ';
-	display: block;
-	position: relative;
-	border: 1px solid deeppink;
-}
-#sidebar ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-#sidebar ul li a{
-	color: #FFF;
-	text-decoration: none;
-	font-size: 1.6em;
-	line-height: 2em;
-}
-#sidebar ul li a:hover span{
-	color: deeppink;
-}
 #gallery-carousel{
 	width: 65%;
-	background: #ccc;
 	box-sizing: border-box;
 	position: absolute;
 	right: 0;
@@ -114,6 +78,33 @@ html, body{
   bottom: 40px!important;
   width: 200px;
 }
+#sidebar h1{
+	margin-bottom: 0;
+	line-height: 1.15em;
+}
+#sidebar h1 + p{
+	font-size: 1.75em;
+	margin-top: 0;
+}
+#sidebar ul{
+	padding: 0;
+	margin: 0;
+}
+#sidebar ul li{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+#sidebar ul li a{
+	color: #FFF;
+	text-decoration: none;
+	font-size: 1.75em;
+	margin: 0.25em 0;
+	display: block;
+}
+#sidebar ul li a:hover span{
+	color: deeppink;
+}
 #sidebar #piece-name{
   color: #FFF;
   font-weight: bold;
@@ -140,8 +131,8 @@ html, body{
 }
 #sidebar #piece-details{
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 3%;
+  left: 7%;
 }
 #piece-details p{
   margin-bottom: 0;
@@ -158,4 +149,87 @@ opacity: 0.7;
 }
 .current_page_item{
   display: none;
+}
+#menu-btn{
+	width: 100%;
+	display: block;
+	z-index: 4;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	background: #000;
+}
+h2.entry-title a{
+  text-decoration: none;
+  color: deeppink;
+}
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+  	.mobile-only{
+  		display: block;
+  	}
+  	.desktop-only{
+  		display: none;
+  	}
+  	#sidebar{
+  		background: rgba(0,0,0,0.5);
+  		width: 100%;
+  		z-index: 3;
+  		padding: 5% 7%;
+  		box-sizing: border-box;
+  	}
+  	#gallery-carousel{
+  		width: 100%;
+  		z-index: 2;
+  	}
+}
+@media and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)  { 
+  	.mobile-only{
+  		display: block;
+  	}
+  	.desktop-only{
+  		display: none;
+  	}
+  	#sidebar{
+  		background: rgba(0,0,0,0.5);
+  		width: 100%;
+  		z-index: 3;
+  		padding: 5% 7%;
+  		box-sizing: border-box;
+  	}
+  	#gallery-carousel{
+  		width: 100%;
+  		z-index: 2;
+  	}
+}
+@media all and (min-width: 961px){
+	.mobile-only{
+  		display: none;
+  	}
+  	.desktop-only{
+  		display: block;
+  	}
+}
+@media all and (max-width: 960px){
+	.mobile-only{
+  		display: block;
+  	}
+  	.desktop-only{
+  		display: none;
+  	}
+  	#sidebar{
+  		background: rgba(0,0,0,0.5);
+  		width: 100%;
+  		z-index: 3;
+  		padding: 5% 7%;
+  		box-sizing: border-box;
+  	}
+  	#gallery-carousel{
+  		width: 100%;
+  		z-index: 2;
+  	}
 }
