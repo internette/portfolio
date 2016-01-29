@@ -165,6 +165,10 @@ h2.entry-title a{
   text-decoration: none;
   color: deeppink;
 }
+#gallery-carousel>.post.hentry.ivycat-post{
+	padding: 2%;
+	box-sizing: border-box;
+}
 /* ----------- iPhone 6 ----------- */
 
 /* Portrait and Landscape */
