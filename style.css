@@ -25,10 +25,10 @@ html, body{
 	width: 100%;
 }
 #sidebar{
-	/*background: #000;*/
-	/*color: #fff;*/
-	background: #f8cbcb;
-	color: #000;
+	/*background: #000;
+	color: #fff;*/
+  background: #f8cbcb;
+  color: #000;
 	width: 35%;
 	box-sizing: border-box;
 	padding: 1% 2%;
@@ -36,10 +36,10 @@ html, body{
 	height: 100%;
 	position: relative;
 }
-.pink{
+/*pink{
 	color: deeppink;
-}
-#gallery-carousel{
+}*/
+#gallery-carousel, #body-content{
 	width: 65%;
 	box-sizing: border-box;
 	position: absolute;
@@ -98,8 +98,9 @@ html, body{
 	list-style-type: none;
 }
 #sidebar ul li a{
-	color: #FFF;
+	/*color: #FFF;*/
 	text-decoration: none;
+  color: #000;
 	font-size: 1.75em;
 	margin: 0.25em 0;
 	display: block;
@@ -126,7 +127,8 @@ html, body{
   display: none!important;
 }
  #gallery-carousel > div > div > div.soliloquy-viewport > ul{
-  background: #000;
+  /*background: #000;*/
+  background: #FFF;
 }
  #gallery-carousel > div > div > div.soliloquy-viewport > ul > li img{
   opacity: 0.7;
@@ -167,9 +169,10 @@ h2.entry-title a{
   text-decoration: none;
   color: deeppink;
 }
-#gallery-carousel>.post.hentry.ivycat-post{
-	padding: 2%;
-	box-sizing: border-box;
+#body-content>.post.hentry.ivycat-post{
+  padding: 0 2% 2%;
+  box-sizing: border-box;
+  border-bottom: 1px #ccc solid;
 }
 /* ----------- iPhone 6 ----------- */
 
