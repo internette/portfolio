@@ -96,6 +96,10 @@ html, body{
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
+  border-top: 1px solid #f0a9ab;
+}
+#sidebar ul li:last-child{
+  border-bottom: 1px solid #f0a9ab;
 }
 #sidebar ul li a{
 	/*color: #FFF;*/
