@@ -1,7 +1,5 @@
 <div id="sidebar">
-    <h1>My name is <span class="pink">Antoinette Janus</span></h1>
-    <p>I'm a developer and designer based in Washington, D.C.
-    </p>
+    <p>Hello. My name is <b>Antoinette Janus</b>. I'm a developer and designer based in Washington, D.C.</p>
     <ul>
        <?php 
        $args = array(
@@ -10,7 +8,7 @@
             'date_format'  => get_option('date_format'),
             'depth'        => 0,
             'echo'         => 1,
-            'exclude'      => $post->ID,
+            'exclude'      => '',
             'include'      => '',
             'link_after'   => '<span>&nbsp;&raquo;</span>',
             'link_before'  => '',
@@ -25,10 +23,4 @@
        wp_list_pages($args);
        ?> 
     </ul>
-    <div id="piece-details">
-      <div id="page-slider"></div>
-      <p></p>
-      <p id="piece-name"></p>
-      <p id="piece-description"></p>
-    </div>
 </div>
