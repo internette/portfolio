@@ -8,7 +8,7 @@ function atTop(elm, styleAttr){
 
 }
 window.addEventListener('scroll', function(){
-	if(window.pageYOffset >= Number(getComputedStyle(document.getElementById('sidebar')).height.replace('px',''))){
+	if(window.pageYOffset >= Number(getComputedStyle(document.getElementById('sidebar')).height.replace('px','')) - (Number(getComputedStyle(document.querySelector('#sidebar ul')).height.replace('px','')) + Number(getComputedStyle(document.getElementById('sidebar')).paddingTop.replace('px',''))+ Number(getComputedStyle(document.getElementById('sidebar')).paddingBottom.replace('px','')))){
 		document.getElementById('container').className = 'scrolling';
 	} else {
 		document.getElementById('container').className = '';

@@ -1,13 +1,13 @@
 /*
-Theme Name: Blank
+Theme Name: Retro Pink
 Theme URI:
-Description: WordPress theme starter pack for faster design and development.
-Author: Lifehacker
-Author URI: http://lifehacker.com
+Description: Pink Theme for the Pink Lover.
+Author: Antoinette Janus
+Author URI: http://acjanus.co
 Version: 0.1
-Tags: lifehacker
+Tags: pink, heart, love
 
-This theme is property of Adam Dachis and is not available for public use.
+This theme is property of Antoinette Janus and is not available for public use.
  
 */
 
@@ -285,40 +285,15 @@ html, body{
   text-align: right;
   padding-right: 12px;
 }
-rect {
-    transform-origin: 50% 50%;
-}
-#mobilenav{
-  width: 35px;
-  height: 35px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2000;
-}
-rect {
-    transform-origin: 50% 50%;
-}
-#mobilenav{
-  width: 35px;
-  height: 35px;
-  position: fixed;
-  top: 0;
-  right: 5px;
-  left: auto;
-  z-index: 2000;
-}
 @media all and (min-width: 961px){
-  #mobilenav{
-  	display: none;
-  }
+
 }
 @media all and (max-width: 960px){
-    #mobilenav{
-      display: none;
+    .scrolling #sidebar{
+      position: fixed;
     }
-    .scrolling #mobilenav{
-      display: block;
+    .scrolling #sidebar p{
+      display: none;
     }
     #container{
       background: #f9e4e4;
@@ -345,6 +320,7 @@ rect {
     }
     #sidebar ul{
       padding: 0;
+      margin-top: 0em;
     }
     #sidebar ul li{
       display: inline-block;
