@@ -1,3 +1,10 @@
+<a id="mobilenav">
+  <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <rect x="5" y="5" width="35" height="6" id="topbar"/>
+    <rect x="5" y="15" width="35" height="6" id="middlebar"/>
+    <rect x="5" y="25" width="35" height="6" id="bottombar"/>
+  </svg>
+</a>
 <div id="sidebar">
     <p>Hello. My name is <b>Antoinette Janus</b>. I'm a developer and designer based in Washington, D.C.</p>
     <ul>
