@@ -1,0 +1,75 @@
+<div class="alt">
+	<div class="post">
+		<h1>Antoinette Janus</h1>
+		<p class="subtitle">Front-End Developer | Washington, D.C. | <a href="mailto:acj.gfx@gmail.com">E-mail</a></p>
+		<p class="subtitle res-cat"><b>Experience</b></p>
+		<div class="row">
+			<div class="exp">
+				<p class="subtitle">Web Developer & Designer, CEB</p>
+				<div class="resp">
+					<ul>
+						<li><i>Every project was supported from IE8+</i></li>
+						<li>Built and updated client sites based on mock ups through JavaScript, HTML and CSS/SCSS</li>
+						<li>Interacted with clients and team regularly about projects</li>
+						<li>Main JavaScript developer on team</li>
+						<li>Modified responsive code and converted pages to be responsive across multiple devices</li>
+						<li>Lead CSS conversion, custom JavaScript implementation, and debugging throughout CMS transition</li>
+						<li class="techs">Technologies Used: jQuery, AJAX, vanilla JavaScript, Photoshop, HTML, CSS, CMS, Windows, OSX</li>
+					</ul>
+					<span>AUG 2014 — PRESENT</span>
+				</div>
+			</div>
+			<div class="exp">
+				<p class="subtitle">Designer, Sustainable Campus</p>
+				<div class="resp">
+					<ul>
+						<li>Provided logo redesign for rebranding of Office of Student Sustainability</li>
+						<li>Designed informational posters for events and environmental holidays</li>
+						<li>Designed an informational booklet on living green in Tallahassee</li>
+						<li>Created an interactive room on how to live eco-friendly on campus</li>
+						<li>Modified photos for a student lead, school funded project</li>
+						<li class="techs">Technologies Used: jQuery, vanilla JavaScript, Photoshop, HTML, CSS, Windows, OSX</li>
+					</ul>
+					<span>OCT 2012 — MAY 2014</span>
+				</div>
+			</div>
+		</div>
+		<p class="subtitle res-cat"><b>Education</b></p>
+		<div class="row">
+			<div class="exp">
+				<p class="subtitle">Florida State University</p>
+				<div class="resp">
+					<ul>
+						<li>Bachelor Degree in Studio Art</li>
+					</ul>
+					<span>MAY 2014</span>
+				</div>
+			</div>
+		</div>
+		<p class="subtitle res-cat"><b>Skills</b></p>
+		<div class="row" id="skills">
+			<div class="exp">
+				<div class="resp">
+					<p class="subtitle">Proficient</p>
+					<ul>
+						<li>Adobe Creative Suite up to Creative Cloud</li>
+						<li>HTML/HTML5, CSS3/SCSS</li>
+						<li>Wordpress/Adobe Enterprise</li>
+						<li>Gulp/Grunt</li>
+						<li>JavaScript, jQuery, Velocity, MeteorJS, BackboneJS</li>
+						<li>Github</li>
+						<li>APIs (Google Maps, Youtube, Bootstrap, Flickr, Instagram, AWS)</li>
+					</ul>
+				</div>
+				<div class="resp">
+					<p class="subtitle">Working Knowledge</p>
+					<ul>
+						<li>Sharepoint</li>
+						<li>PHP</li>
+						<li>mySQL, MongoDB</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
